@@ -170,6 +170,7 @@ const Chat: FC<IChatProps> = ({
                   </>
                 )
               }
+const textareaRef = useRef<HTMLTextAreaElement | null>(null)
               <Textarea
                 className={`
                   block w-full px-2 pr-[118px] py-[7px] leading-5 max-h-none text-sm text-gray-700 outline-none appearance-none resize-none
@@ -181,6 +182,7 @@ const Chat: FC<IChatProps> = ({
                 onKeyDown={handleKeyDown}
                 autoSize
                 placeholder="質問を入力"
+                ref={textareaRef}
               />
               <div className="absolute bottom-2 right-2 flex items-center h-8">
                 <Tooltip
