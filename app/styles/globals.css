@@ -11,8 +11,8 @@
   line-height: 2rem;
 }
 
-.text-sl {
-  font-size: 16px !important;
+textarea.text-sm {
+  font-size: 18px !important;
 }
 
 :root {
