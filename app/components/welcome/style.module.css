@@ -19,6 +19,8 @@
 
 .customBtn {
   width: fit-content;
+  margin:auto;
+  width:60%;
 }
 
 .logo {
