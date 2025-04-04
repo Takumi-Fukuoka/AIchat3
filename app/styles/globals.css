@@ -208,3 +208,8 @@ a {
   transition: .5s;
   opacity: 0.7;
 }
+
+.takStartBot {
+    margin: auto;
+    width: 60%;
+}
