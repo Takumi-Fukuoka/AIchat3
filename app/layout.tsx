@@ -10,9 +10,9 @@ const LocaleLayout = ({
 }) => {
   const locale = getLocaleOnServer()
   return (
-    <html lang={locale ?? 'en'} className="h-full">
+    <html lang="ja-JP" className="h-full" data-theme="light">
       <body className="h-full">
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto takContentBox">
           <div className="w-screen h-screen min-w-[300px]">
             {children}
           </div>

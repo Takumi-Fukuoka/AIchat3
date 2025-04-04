@@ -5,7 +5,7 @@ const translation = {
     appUnkonwError: 'アプリは利用できません',
   },
   chat: {
-    newChat: '新しいチャット',
+    newChat: '質問をリセットする',
     newChatDefaultName: '新しい会話',
     openingStatementTitle: 'オープニングステートメント',
     powerBy: '提供元',

@@ -1,6 +1,7 @@
 .answerIcon {
   position: relative;
-  background: url(./icons/robot.svg);
+  background: url(https://health-voice.net/wp-content/uploads/2025/04/logo.png);
+  background-size: cover;
 }
 
 .typeingIcon {
@@ -28,7 +29,7 @@
 .question::before {
   content: '';
   position: absolute;
-  top: 0;
+  top: 15px;
   width: 8px;
   height: 12px;
 }
@@ -77,15 +78,6 @@
   background: url(./icons/send.svg) center center no-repeat;
 }
 
-.sendBtn:hover {
-  background-image: url(./icons/send-active.svg);
-  background-color: #EBF5FF;
-}
-
 .textArea:focus+div .count {
   display: block;
-}
-
-.textArea:focus+div .sendBtn {
-  background-image: url(./icons/send-active.svg);
 }
